@@ -1,0 +1,158 @@
+/* Reset some basic styles */
+body, h1, h2, p, ul, form, input, img ,nav{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;    
+}
+nav{
+    
+    background-color: #c8e7eb;
+    color: #312;
+    line-height: 1.6;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+}
+/* Body styling */
+body {
+    background-color: #c8e7eb;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Container styling for all divs */
+div {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Image styling */
+img {
+    border-radius: 8px;
+    margin: 12px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* List styling */
+ul {
+    list-style-type:none;
+    padding-left: 0;
+    text-align: left;
+    display:flex;
+    margin: 10 auto;
+}
+ul1 {
+    
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+    display:flex;
+    margin: 10 auto;
+    
+}
+ li1 {
+    margin: 5px;
+    padding-inline: 170px;;
+}
+li {
+    margin-bottom: 5px;
+    padding: 14px;;
+    background-color:#dfdddd1f;
+}
+
+/* Link styling */
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    width: 80%;
+    max-width: 300px;
+}
+
+input[type="submit"] {
+    padding: 10px 15px;
+    border: none;
+    background: #007BFF;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+/* Styling for previous projects */
+a[href*="github"] {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #333;
+    color: #fff;
+    border-radius: 4px;
+}
+
+a[href*="github"]:hover {
+    background: #444;
+}

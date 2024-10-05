@@ -47,13 +47,6 @@ div {
 }
 
 /* Heading styles */
-h1 {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 10px;
-    color: #333;
-}
-
 h2 {
     font-size: 1.5em;
     margin-top: 20px;
@@ -78,28 +71,24 @@ img {
 /* List styling */
 ul {
     list-style-type:none;
-    padding-left: 0;
-    text-align: left;
     display:flex;
-    margin: 10 auto;
+    text-align: center;
+    gap:20px;
 }
-ul1 {
-    
+li {
+    background-color:#dfdddd1f;
+}
+.u1 {
     align-items: center;
     list-style-type: none;
     text-align: center;
-    display:flex;
-    margin: 10 auto;
-    
 }
- li1 {
-    margin: 5px;
-    padding-inline: 170px;;
-}
-li {
-    margin-bottom: 5px;
-    padding: 14px;;
-    background-color:#dfdddd1f;
+.a1 {
+     display:flex;
+     flex-direction: column;
+     text-align: center;
+     margin: 5px;
+     padding-inline: 30;
 }
 
 /* Link styling */
